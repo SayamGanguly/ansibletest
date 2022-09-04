@@ -26,3 +26,7 @@
             service:
                 name: tomcat9
                 state: started
+          - name: install maven
+            service:
+                name: maven
+                state: present
