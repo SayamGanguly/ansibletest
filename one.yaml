@@ -18,3 +18,7 @@
             service:
                 name: apache2
                 state: restarted
+          - name: starting tomcat9 service
+            service:
+                name: tomcat9
+                state: started
